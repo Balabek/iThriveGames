@@ -1,0 +1,52 @@
+/* Helvetica Neue */
+
+@font-face {
+    font-family: 'Facto';
+    url(../fonts/Facto.woff) format('woff'),
+    url(../fonts/Facto.otf) format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Facto Bold';
+    url(../fonts/Facto Bold.woff) format('woff'),
+    url(../fonts/Facto Bold.woff2) format('woff2'),
+    url(../fonts/Facto Bold.otf) format('otf');
+    url(../fonts/Facto Bold.eot) format('eot');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Facto Lite';
+    url(../fonts/Facto Light.woff) format('woff'),
+    url(../fonts/Facto Light.otf) format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* - = - = - = - = - = - */
+
+
+.facto_reg {
+    font-family: "Facto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.facto_bold {
+    font-family: "FactoBold", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.facto_lite {
+    font-family: "FactoLite", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}

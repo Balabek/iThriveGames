@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=1024, user-scalable = no">-->
+    <title>iThrive Games :: Game Prototypes</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap + Custom Stylez -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link href="css/webfonts.css" rel="stylesheet" media="all">
+    <link href="slick-1.6.0/slick/slick.css" rel="stylesheet">
+    <link href="slick-1.6.0/slick/slick-theme.css" rel="stylesheet">
+    <link href="css/select2.css" rel="stylesheet">
+    <link href="css/ithrive.css" rel="stylesheet">
+    <link href="css/mq.css" rel="stylesheet">
+</head>
+<body>
+<div id="main" class="main">
+    <header>
+        <nav class="navbar navbar-default hlxweb_inner_navbar">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header hlxweb_navbar_header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hlxweb_collapse_inner" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand hlxweb_brandbox" href="index.html">
+                        <img src="img/iThriveLogo.png" class="logo_4_header_inner animated bounceInLeft">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="hlxweb_collapse_inner">
+                    <ul class="nav navbar-nav inner_nav">
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Our Team</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Projects</a></li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Resource Center</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Habits for Thriving</a></li>
+                                <li><a href="#">Design Tools</a></li>
+                                <li><a href="#">Game Prototypes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#" class="btn contact_homepage_button_inner">Contact</a></li>
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav>
+    </header> <!-- Navbar/Header END -->
+
+    <div class="inner_header_area game_prototypes">
+        <div class="container">
+            <div class="row">
+                <h1 class="inner_header_ttl">Game Prototypes</h1>
+            </div>
+        </div>
+    </div> <!-- Inner header area end END -->
+
+    <div class="game_prototypes_main_area">
+        <div class="container">
+            <div class="row">
+
+                <div class="search_filter_area">
+                    <div class="center-block search_filter_ttl_holder">
+                        <span class="filter_icon"></span>
+                        <h3 class="search_filter_ttl">Search Filter</h3>
+                    </div>
+                    <div class="search_filter_form_holder">
+                        <form id="searchFilterForm" class="search_filter_form" role="form">
+                            <div class="col-sm-4 form-group search_filter_form_group">
+                                <label for="selectEvent"></label>
+                                <select id="selectEvent" type="text">
+                                    <option></option>
+                                    <option>All</option>
+                                    <option>Some event name here</option>
+                                    <option>Another event here</option>
+                                    <option>One more event here</option>
+                                    <option>Some event name here</option>
+                                    <option>Another event here</option>
+                                    <option>One more event here</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-4 form-group search_filter_form_group">
+                                <label for="selectTheme"></label>
+                                <select id="selectTheme" type="text">
+                                    <option></option>
+                                    <option>All</option>
+                                    <option>Theme title</option>
+                                    <option>Another title</option>
+                                    <option>One</option>
+                                    <option>Some event name here</option>
+                                    <option>Another event here</option>
+                                    <option>One more event here</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-4 form-group search_filter_form_group">
+                                <label for="selectPlatform"></label>
+                                <select id="selectPlatform" type="text">
+                                    <option></option>
+                                    <option>All</option>
+                                    <option>iOS</option>
+                                    <option>Android</option>
+                                    <option>Windows Mobile</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="show_results_btn_holder center-block">
+                                <button type="submit" class="btn show_results_btn"> Show Results</button>
+                            </div>
+                        </form>
+                    </div>
+                </div> <!-- Search filter area END -->
+            </div>
+        </div>
+
+        <div class="game_thumbs_area">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_01.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Kill Saddam II</h4>
+                                    <p>CAT: <span>Shooter</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat.
+                                        Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_02.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Wonderwoman Returns</h4>
+                                    <p>CAT: <span>Arcade</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Suulis membra ingenuorum adfligens et quosdam obterens manicis, crimina scilicet multa
+                                        consarcinando a veritate longe discreta. unde admissum est facinus impium, quod...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_03.gif') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Catch The Mousey</h4>
+                                    <p>CAT: <span>Logic</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Mensarum enim voragines et varias voluptatum inlecebras, ne longius progrediar,
+                                        praetermitto illuc transiturus quod quidam per ampla spatia urbis subversasque silices sine...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_04.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Blood</h4>
+                                    <p>CAT: <span>Shooter</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Et est admodum mirum videre plebem innumeram mentibus ardore quodam infuso cum dimicationum
+                                        curulium eventu pendentem. haec similiaque memorabile nihil vel serium agi...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_05.png') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Karate Kid 2018</h4>
+                                    <p>CAT: <span>Fighter</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Suulis membra ingenuorum adfligens et quosdam obterens manicis, crimina scilicet
+                                        multa consarcinando a veritate longe discreta. unde admissum est facinus impium, quod...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_06.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Fox Runner (Jungle Edition)</h4>
+                                    <p>CAT: <span>Logic</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Gerum tunc urgentium captu disponeretur concordi consilio, quibus virium
+                                        incrementis Parthicarum gentium a arma minantium impetus frangerentur..
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_07.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Pearl Harbour</h4>
+                                    <p>CAT: <span>Strategy</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Mensarum enim voragines et varias voluptatum inlecebras, ne longius progrediar,
+                                        praetermitto illuc transiturus quod quidam per ampla spatia urbis subversasque silices sine...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_08.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Need For Speed 2017</h4>
+                                    <p>CAT: <span>Racing</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat.
+                                        Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_01.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Kill Saddam II</h4>
+                                    <p>CAT: <span>Shooter</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat.
+                                        Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_02.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Wonderwoman Returns</h4>
+                                    <p>CAT: <span>Arcade</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Suulis membra ingenuorum adfligens et quosdam obterens manicis, crimina scilicet multa
+                                        consarcinando a veritate longe discreta. unde admissum est facinus impium, quod...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_03.gif') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Catch The Mousey</h4>
+                                    <p>CAT: <span>Logic</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Mensarum enim voragines et varias voluptatum inlecebras, ne longius progrediar,
+                                        praetermitto illuc transiturus quod quidam per ampla spatia urbis subversasque silices sine...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_04.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Blood</h4>
+                                    <p>CAT: <span>Shooter</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Et est admodum mirum videre plebem innumeram mentibus ardore quodam infuso cum dimicationum
+                                        curulium eventu pendentem. haec similiaque memorabile nihil vel serium agi...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_05.png') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Karate Kid 2018</h4>
+                                    <p>CAT: <span>Fighter</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Suulis membra ingenuorum adfligens et quosdam obterens manicis, crimina scilicet
+                                        multa consarcinando a veritate longe discreta. unde admissum est facinus impium, quod...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_06.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Fox Runner (Jungle Edition)</h4>
+                                    <p>CAT: <span>Logic</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Gerum tunc urgentium captu disponeretur concordi consilio, quibus virium
+                                        incrementis Parthicarum gentium a arma minantium impetus frangerentur..
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_07.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Pearl Harbour</h4>
+                                    <p>CAT: <span>Strategy</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Mensarum enim voragines et varias voluptatum inlecebras, ne longius progrediar,
+                                        praetermitto illuc transiturus quod quidam per ampla spatia urbis subversasque silices sine...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 game_thumbs_holder">
+                        <div class="game_thumb">
+                            <div class="game_thumb_image" style="background: url('img/game_screenshot_thumb_08.jpg') center center no-repeat; background-size: cover;"></div>
+                            <div class="game_thumb_details_main_holder">
+                                <div class="game_thumb_title_holder">
+                                    <h4>Need For Speed 2017</h4>
+                                    <p>CAT: <span>Racing</span></p>
+                                </div>
+                                <hr class="microhr">
+                                <div class="text_preview_holder">
+                                    <p>
+                                        Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat.
+                                        Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="more_details_button_holder">
+                                <a href="#" class="btn more_details_btn">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ithrive_pagination_holder">
+                    <nav>
+                        <ul class="pagination ithrive_pagination">
+                            <li>
+                                <a href="javascript:void(0)" aria-label="Previous" class="frozen">
+                                    <span aria-hidden="true">Previous</span>
+                                </a>
+                            </li>
+                            <li><a href="javascript:void(0)" class="active">1</a></li>
+                            <li><a href="javascript:void(0)">2</a></li>
+                            <li><a href="javascript:void(0)">3</a></li>
+                            <li>
+                                <a href="javascript:void(0)" aria-label="Next">
+                                    <span aria-hidden="true">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div> <!-- Container END -->
+
+        </div> <!-- Game Thumbs Area END  -->
+    </div> <!--  Game Prototypes Area END -->
+
+
+
+    <footer class="ithrive_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 footerlogoboxx">
+                    <a class="#"><img src="img/iThriveLogo_white.png" class="footerlogo"></a>
+                    <ul class="footersocialz">
+                        <li><a href="#" class="hvr-pop"><i class="fa fa-facebook-f"></i> </a></li>
+                        <li><a href="#" class="hvr-pop"><i class="fa fa-twitter"></i> </a></li>
+                        <li><a href="#" class="hvr-pop"><i class="fa fa-envelope"></i> </a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 footer_linxx_holder">
+                    <ul class="footerlinx">
+                        <li><a href="#" class="hvr-underline-from-left">HOME</a> </li>
+                        <li><a href="#" class="hvr-underline-from-left">ABOUT US</a> </li>
+                        <li><a href="#" class="hvr-underline-from-left">OUR TEAM</a> </li>
+                        <li><a href="#" class="hvr-underline-from-left">PROJECTS</a> </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 footer_linxx_holder">
+                    <ul class="footerlinx">
+                        <li><a href="#" class="hvr-underline-from-left">HABITS FOR THRIVING</a> </li>
+                        <li><a href="#" class="hvr-underline-from-left">DESIGN TOOLS</a> </li>
+                        <li><a href="#" class="hvr-underline-from-left">OUR BLOG</a> </li>
+                        <li><a href="#" class="hvr-underline-from-left">CONTACT</a> </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 footer_partnerz">
+                    <h4>WITH SUPPORT FROM:</h4>
+                    <img class="footerpartner" src="img/footerpartner_1.png">
+                    <img class="footerpartner" src="img/footerpartner_2.png">
+                </div>
+                <div class="clearfix"></div>
+                <hr class="footer_hr">
+                <div class="bottommost_notes_holder center-block">
+                    <small>&copy; 2017 iThrive Games. All Rights Reserved</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div> <!-- Main END -->
+
+<!-- jQuery'z -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- JSz -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="slick-1.6.0/slick/slick.js"></script>
+<script type="text/javascript" src="js/ithrive.js"></script>
+<script type="text/javascript" src="js/select2.full.js"></script>
+<script>
+    $('#selectEvent').select2({
+        width: '100%',
+        minimumResultsForSearch: -1,
+        placeholder: "Select Event"
+    });
+    $('#selectTheme').select2({
+        width: '100%',
+        minimumResultsForSearch: -1,
+        placeholder: "Select Theme"
+    });
+    $('#selectPlatform').select2({
+        width: '100%',
+        minimumResultsForSearch: -1,
+        placeholder: "Select Platform"
+    });
+</script>
+
+</body>
+</html>
